@@ -104,7 +104,7 @@ def main():
             best_length = total_length
 
     # Write the optimized solution to the output file
-    output_file = "210500V.txt"
+    output_file = "output.txt"
     with open(output_file, "w") as file:
         for i, route in enumerate(best_solution):
             lorry_number = i + 1
